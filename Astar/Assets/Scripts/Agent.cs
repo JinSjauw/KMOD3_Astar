@@ -51,7 +51,7 @@ public class Agent : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(moveButton))
         {
-            Debug.Log("Click");
+            //Debug.Log("Click");
             Ray r = Camera.main.ScreenPointToRay(new Vector3(Input.mousePosition.x, Input.mousePosition.y, -10));
 
             Vector3 mousePos = MouseToWorld();
